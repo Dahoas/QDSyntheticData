@@ -11,6 +11,21 @@ Overall, this will roughly consist of three stages:
 2. **Synthesis**: writing a survey of our findings by organizing methods into a single conceptual framework. We may also want to do some benchmarking.
 3. **Next steps**: identifying promising research directions as recommendations to the broader community
 
+## Questions
+
+Some important questions we will want to think about addressing:
+
+- How to define quality?
+- How to define diversity?
+- The impact of the model
+  - model size
+  - pretraining data
+  - fine-tuning data
+- The impact of the sampling methodology
+  - Type of prompt
+  - Sampling algorithm
+- Impact of the task domain
+
 ## Links
 
 - Meeting Notes: [Link](https://drive.google.com/drive/folders/1Q0Np8xaJgcvqMSt_5PDl-M6MyrfWjtjN?usp=sharing)
