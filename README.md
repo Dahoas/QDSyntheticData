@@ -4,7 +4,7 @@ This repository serves as the main organizational tool for the [survey paper](ht
 
 ## Project Description
 
-The aim of this project is to catalog the many current ad hoc methods for synthetic data generation via LLMs with a focus on understanding their impact on two metrics: dataset quality and dataset diversity. An important sub-question we will need to discuss is how to appropriately define these metrics, in particular dataset diversity. 
+The aim of this project is to catalog the many current ad hoc methods for synthetic data generation via LLMs with a focus on understanding their impact on two metrics: dataset quality and dataset diversity. Ideally, this can be done under a single conceptual framework. An important sub-question we will need to discuss is how to appropriately define these metrics, in particular dataset diversity. 
 
 Overall, this will roughly consist of three stages:
 1. **Collection**: finding as many papers as we can pertaining to synthetic data generation and measures of and techniques improving quality or diversity for LLMs.
