@@ -6,6 +6,10 @@ Template outling what features of a paper to report. Copy this for a new paper a
 
 3-4 line paper summary.
 
+## Relevance to survey topic (1-5)
+
+Relevance: ?
+
 ## Algorithms
 
 List of algorithm categories the proposed method falls under. This will take some time to formalize. Example categories include i.i.d sampling, few-shot i.i.d sampling, MAP Elites, 
