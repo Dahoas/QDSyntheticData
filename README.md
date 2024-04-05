@@ -1,6 +1,6 @@
 # QD Synthetic Data
 
-This repository serves as the main organizational tool for the [survey paper](https://www.overleaf.com/read/tvvwqwxmqdvf#e3f33) "A Survey of Methods for Generating Quality and Diverse Synthetic Data with LLMs". We are collecting papers in [this spreadsheet](https://docs.google.com/spreadsheets/d/1rJuiM-553zsryF5HHWEL0Z7ucPaXSA_x6U9tQo-yaPE/edit?usp=sharing). You can find a roadmap for the project on [this](https://github.com/users/Dahoas/projects/7/views/1) Github projects board. The board also contains a (tentative) timeline for the project. Weekly meeting notes and recordings are housed [here](https://drive.google.com/drive/folders/1Q0Np8xaJgcvqMSt_5PDl-M6MyrfWjtjN?usp=sharing).
+This repository serves as the main organizational tool for the [survey paper](https://www.overleaf.com/read/tvvwqwxmqdvf#e3f33) "A Survey of Methods for Generating Quality and Diverse Synthetic Data with LLMs". We are collecting papers as Github issues. To add a new paper, first check that it is not present, then fill out the new paper issue template [here](https://github.com/Dahoas/QDSyntheticData/issues/new/choose). To close the issue you (or someone else) can make a PR containing a report on the paper using the provided format [here](https://github.com/Dahoas/QDSyntheticData/blob/main/papers/paper_example.md). You can find a roadmap for the project on [this](https://github.com/users/Dahoas/projects/7/views/1) Github projects board. Weekly meeting notes and recordings are housed [here](https://drive.google.com/drive/folders/1Q0Np8xaJgcvqMSt_5PDl-M6MyrfWjtjN?usp=sharing).
 
 ## Project Description
 
@@ -33,6 +33,6 @@ Meetings are at 5:30 EST on Thursdays. Email `alexdahoas@gmail.com` or DM Alex H
 ## Links
 
 - Meeting Notes: [Link](https://drive.google.com/drive/folders/1Q0Np8xaJgcvqMSt_5PDl-M6MyrfWjtjN?usp=sharing)
-- Paper Spreadsheet: [Link](https://docs.google.com/spreadsheets/d/1rJuiM-553zsryF5HHWEL0Z7ucPaXSA_x6U9tQo-yaPE/edit?usp=sharing)
+- Issuet: [Link](https://docs.google.com/spreadsheets/d/1rJuiM-553zsryF5HHWEL0Z7ucPaXSA_x6U9tQo-yaPE/edit?usp=sharing)
 - Paper: [Link](https://www.overleaf.com/read/tvvwqwxmqdvf#e3f33b)
 - Project board: [Link](https://github.com/users/Dahoas/projects/7/views/1)
