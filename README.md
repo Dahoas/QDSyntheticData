@@ -33,6 +33,5 @@ Meetings are at 5:30 EST on Thursdays. Email `alexdahoas@gmail.com` or DM Alex H
 ## Links
 
 - Meeting Notes: [Link](https://drive.google.com/drive/folders/1Q0Np8xaJgcvqMSt_5PDl-M6MyrfWjtjN?usp=sharing)
-- Issuet: [Link](https://docs.google.com/spreadsheets/d/1rJuiM-553zsryF5HHWEL0Z7ucPaXSA_x6U9tQo-yaPE/edit?usp=sharing)
 - Paper: [Link](https://www.overleaf.com/read/tvvwqwxmqdvf#e3f33b)
 - Project board: [Link](https://github.com/users/Dahoas/projects/7/views/1)
