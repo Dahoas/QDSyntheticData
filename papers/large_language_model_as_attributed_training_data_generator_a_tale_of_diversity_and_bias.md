@@ -11,8 +11,8 @@ Relevance: 5
 
 ## Algorithms
 
-Semi-supervised attribute discovery and generation with ChatGPT
-Attribute diversity ablation
+- Semi-supervised attribute discovery and generation with ChatGPT
+- Attribute diversity ablation
 
 ## Benchmarks
 
@@ -24,7 +24,7 @@ Text classification for:
 
 ## Metric Results
 
-- diversity (AttrPrompt mostly improves upon SimPrompt in diversity, but worse than Gold)
+- diversity (AttrPrompt mostly improves upon SimPrompt in diversity, but worse than Gold/real data)
   - lexical diversity: vocabulary size of generated dataset
   - cosine similarity of Sentence-BERT embedding of same-class text pairs
   - APS (average pairwise sample similarity)
@@ -42,7 +42,7 @@ Text classification for:
 
 Extensive details on prompts and generated attributes in Appendix
 
-Appendix also mentions experiments and improved performance on significantly underrepresented classes because the AttrPrompt method creates samples for these classes. Makes sense, but I wonder if the improved diversity in AttrPrompt could improve performance on classes undetected (perhaps could measure by being more selective during attribute discovery/selection). The method evidently improves robustness, but what about adaptability?
+Appendix also mentions experiments and improved performance on significantly underrepresented classes because the AttrPrompt method creates samples for these classes. Makes sense, but I wonder if the improved diversity in AttrPrompt could improve performance on classes undetected (perhaps could measure by being more restrictive during attribute discovery/selection). The method evidently improves robustness, but what about adaptability?
 
 ## Questions
 
