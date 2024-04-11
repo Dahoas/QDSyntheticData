@@ -28,7 +28,7 @@ Some important questions we will want to think about addressing:
 
 ## Meeting Time
 
-Meetings are at 5:30 EST on Thursdays. Email `alexdahoas@gmail.com` or DM Alex Havrilla on discord for access.
+Meetings are at 5:30 PM EST on Thursdays. Email `alexdahoas@gmail.com` or DM Alex Havrilla on discord for access.
 
 ## Links
 
