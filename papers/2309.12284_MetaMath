@@ -1,0 +1,47 @@
+# MetaMath: Bootstrapping Mathematical Questions for Large Language Models
+
+## Summary
+
+The paper proposes math question bootstrapping methods to augment the existing math dataset. By bootstrapping from GSM8k and MATH dataset, they generated MetaMathQA. Experiment results show that finetuning on MetaMathQA, improves performance. They analyze question diversity and its effect on downstream performance.
+
+
+## Relevance to survey topic (1-5)
+
+Relevance: 5
+
+## Algorithms
+
+The paper propose several ways to augment a existing math problem (with ground-truth answers) to generate more math problems.
+
+- Answer Augmentation: Generating more reasoning paths that lead to the same correct answer given a math problem.
+- Question Rephrasing: Given a math question, rephrase it to generate another questions. The repharsed question is expected to have the same answer.
+- Augmenting Question with Backward Reasoning: replace a number in the question with a variable, e.g. 'x', and provide the original answer. The generated question is about asking for x that satisfying the original answer.
+
+## Benchmarks
+
+Tasks evaluated.
+
+- Math 
+- GSM8K
+
+## Metric Results
+
+- How is quality measured?
+
+Since the answer of the generated questions are known, they run the model on the generated questions and measure the accuracy of the model on the generated questions.
+
+- How is diversity measured?
+
+They use diversity gain from [1]. D_gain = 1/|D_new| \sum_{x_i in D_new} min_{x_j \in D_base}(|f(x_i) - f(x_j)|^2)
+where for f they use openai embedding model.
+
+- Fine-tuning results?
+Finetuning on MetaMathQA dataset improves performance a lot compare to the base model, and the performance is competitive or better compare to other fine-tuning models like WizardMath.
+
+## Other comments
+
+- There are some discussion about diversity gain of the generated data, and showing that generated data with lower diversity gain would saturate. (they compare diversity and accuracy with and without Question boostrapping)
+
+
+[1] Submodularity in machine learning and artificial intelligence
+J Bilmes - arXiv preprint arXiv:2202.00132, 2022
