@@ -1,0 +1,3 @@
+vllm
+pyjson
+git+https://github.com/Dahoas/gpt-query.git@master
