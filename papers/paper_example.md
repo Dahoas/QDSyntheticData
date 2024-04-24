@@ -32,6 +32,14 @@ Tasks evaluated.
 - How is diversity measured?
 - Fine-tuning results?
 
+## Paper Tags
+
+Tag paper with relevant categories. See [here](https://github.com/Dahoas/QDSyntheticData/blob/main/papers/categories.json) for list of all category tags.
+
+1. TAG 1
+2. TAG 2
+3. TAG 3
+
 ## Relevant related work
 
 Add them to the spreadsheet. No need to link them in the report.
