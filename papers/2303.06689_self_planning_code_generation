@@ -1,0 +1,32 @@
+# Self-planning Code Generation with Large
+Language Models
+## Summary
+
+Achieving complex software engineering tasks does not just involve generating code. It rather involves planning and executing. The main motivation of the paper is to split the process into two phases,
+1. Planning
+2. Implmenting.
+The paper shows that using this demarkation to solve the problem would basically increase the performance of the model.
+## Relevance to survey topic (1-5)
+
+Relevance: 3
+The idea of generating diverse plans would directly increase the diversity of the code generated and also increases the quality of the model.
+## Algorithms
+
+List of algorithm categories the proposed method falls under. This will take some time to formalize. Example categories include i.i.d sampling, few-shot i.i.d sampling, MAP Elites, 
+
+- prompting
+- self-learning
+
+## Benchmarks
+
+Tasks evaluated.
+
+- HumanEval
+- HumanEval-ET
+- MBPP
+- MBPP-sanitized
+
+## Metric Results
+
+- How is quality measured?
+By pass@1 based on the test cases for each problem.
