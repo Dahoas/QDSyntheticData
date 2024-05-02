@@ -1,4 +1,4 @@
-# West-of-N: Synthetic Preference Generation for Improved Reward Modeling
+# [West-of-N: Synthetic Preference Generation for Improved Reward Modeling](https://arxiv.org/abs/2401.12086)
 
 ## Summary
 

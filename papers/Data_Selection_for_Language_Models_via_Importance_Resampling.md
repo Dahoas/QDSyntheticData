@@ -1,4 +1,4 @@
-# Data Selection for Language Models via Importance Resampling
+# [Data Selection for Language Models via Importance Resampling](https://arxiv.org/abs/2302.03169)
 
 ## Summary
 

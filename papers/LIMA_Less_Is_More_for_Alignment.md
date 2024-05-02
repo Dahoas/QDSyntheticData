@@ -1,4 +1,4 @@
-# PAPER NAME
+# [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206)
 
 ## Summary
 
@@ -19,4 +19,4 @@ Simply handcrafts extremely high-quality insruction training dataset by going th
 ## Metric Results
 
 - Quality is measured either via pairwise comparisons or on a likert scale measured by humans or gpt.
-- diversty is measured based on instruction topic
+- diversity is measured based on instruction topic

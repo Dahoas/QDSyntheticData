@@ -1,4 +1,4 @@
-# Scaling Laws of Synthetic Images for Model Training ... for Now
+# [Scaling Laws of Synthetic Images for Model Training ... for Now](https://arxiv.org/abs/2312.04567)
 
 ## Summary
 

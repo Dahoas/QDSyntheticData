@@ -1,4 +1,4 @@
-# Stream of Search (SoS): Learning to Search in Language
+# [Stream of Search (SoS): Learning to Search in Language](https://arxiv.org/abs/2404.03683)
 
 ## Summary
 

@@ -1,4 +1,4 @@
-# Better Synthetic Data by Retrieving and Transforming Existing Datasets
+# [Better Synthetic Data by Retrieving and Transforming Existing Datasets](https://arxiv.org/abs/2404.14361)
 
 ## Summary
 

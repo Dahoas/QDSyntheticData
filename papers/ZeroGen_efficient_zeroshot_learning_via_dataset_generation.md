@@ -1,6 +1,4 @@
-# ZeroGen: Efficient Zero-shot Learning via Dataset Generation
-
-[paper](https://arxiv.org/abs/2202.07922)
+# [ZeroGen: Efficient Zero-shot Learning via Dataset Generation](https://arxiv.org/abs/2202.07922)
 
 ## Summary
 
