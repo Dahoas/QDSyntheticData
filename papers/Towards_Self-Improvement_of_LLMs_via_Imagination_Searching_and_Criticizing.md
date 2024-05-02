@@ -1,0 +1,49 @@
+# PAPER NAME
+
+Towards Self-Improvement of LLMs via Imagination, Searching, and Criticizing
+
+## Summary
+
+Generates data from math problems via MCTS, and then collects the best traces and uses them to construct a finetuning dataset to improve the base policy - this is then applied iteratively.
+
+## Relevance to survey topic (1-5)
+
+Relevance: 5
+
+## Algorithms
+
+List of algorithm categories the proposed method falls under. This will take some time to formalize. Example categories include i.i.d sampling, few-shot i.i.d sampling, MAP Elites, 
+
+- MCTS 
+
+## Benchmarks
+
+Tasks evaluated.
+
+- GSM8k 
+- MATH 
+
+## Metric Results
+
+- How is quality measured?
+  - Train a value function, PRM and ORM to evaluate intermediate completions as well as total completions, to guide MCTS.
+    - Start with GSM8k training dataset, and for each problem do multiple rollouts, and then label the final answer and intermediate steps with values.
+  - They use an importance factor 
+     I(s_t) = \max_{o_t} |v^\pi([s_t, o_t]) - v^\pi(s_t)|
+    which is the difference between a sequence (s_t, o_t) compared to the base s_t. This is used to determine how many children to expand a node with aka importance-weighted expansion.
+- How is diversity measured?
+  - When expanding leaf nodes, they use similarity to other candidates via some distance to determine if a proposed candidate completion is too similar to the existing set. They say either a LLM-based distance or a traditional edit distance can be used, though they don't say what they use. They call this method state merging.
+- Fine-tuning results?
+  - Accuracy improves over two iterations of generating and finetuning on generated results by greedily choosing the path with the largest Q-values.
+
+## Other comments
+
+The action space for MCTS is not at the sentence-level or token-level but rather something in-between they call options.
+A smaller LLM is used for the rollout phase, but they don't rollout to estimate the value at every node.
+
+## Questions
+
+What distance function do they use for state merging?
+How do they terminate generation for option-level completions?
+
+
