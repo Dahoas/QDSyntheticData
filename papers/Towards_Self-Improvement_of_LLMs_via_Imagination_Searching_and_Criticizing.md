@@ -4,7 +4,7 @@ Towards Self-Improvement of LLMs via Imagination, Searching, and Criticizing
 
 ## Summary
 
-Generates data from math problems via MCTS, and then collects the best traces and uses them to construct a finetuning dataset to improve the base policy - this is then applied iteratively.
+Generates data to solve math problems via MCTS, and then collects the best traces and uses them to construct a finetuning dataset to improve the base policy - this is then applied iteratively. Called "AlphaLLM" and is trying to apply AlphaZero approach for LLMs.
 
 ## Relevance to survey topic (1-5)
 
