@@ -12,8 +12,6 @@ Relevance: 5
 
 ## Algorithms
 
-List of algorithm categories the proposed method falls under. This will take some time to formalize. Example categories include i.i.d sampling, few-shot i.i.d sampling, MAP Elites, 
-
 - MCTS 
 - PRMs
 - ORMs
