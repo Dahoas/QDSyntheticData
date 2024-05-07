@@ -2,5 +2,7 @@
   "tag": "description",
   "DVFT": "Fine-tuning LLMs for increased exploration/diversity.",
   "SURVEY": "Survey paper.",
-  "DIVERSITY": "Paper with a major emphasis on understanding impact of diversity."
+  "DIVERSITY": "Paper with a major emphasis on understanding impact of diversity.",
+  "SEARCH": "Paper with a major emphasis on combing LLM with search.",
+  "JUDGE": "Paper using LLM as a judge in some format."
 }
