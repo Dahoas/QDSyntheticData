@@ -1,5 +1,4 @@
-# Generative AI for Synthetic Data Generation: Methods, Challenges, and the Future
-[paper](https://arxiv.org/abs/2403.04190)
+# [Generative AI for Synthetic Data Generation: Methods, Challenges, and the Future](https://arxiv.org/abs/2403.04190)
 
 ## Summary
 

@@ -1,5 +1,4 @@
-# Texygen: A Benchmarking Platform for Text Generation Models
-[paper](https://arxiv.org/abs/1802.01886)
+# [Texygen: A Benchmarking Platform for Text Generation Models](https://arxiv.org/abs/1802.01886)
 
 ## Summary
 

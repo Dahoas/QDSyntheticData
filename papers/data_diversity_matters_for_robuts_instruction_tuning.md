@@ -1,10 +1,9 @@
-# Data Diversity Matters for Robust Instruction Tuning
-
+# [Data Diversity Matters for Robust Instruction Tuning](https://arxiv.org/abs/2311.14736)
 
 
 ## Summary
 
-Proposes the Quality-Diversity Instruction Tuning algorithms (**QDIT**) for sampling instruction datasets with targeted levels of quality and diversty from larger instruction datasets. They find quality/diversity are traded off and and data diversity significantly improves worst case instruction performance, suggesting improved generalization.
+Proposes the Quality-Diversity Instruction Tuning algorithms (**QDIT**) for sampling instruction datasets with targeted levels of quality and diversity from larger instruction datasets. They find quality/diversity are traded off and and data diversity significantly improves worst case instruction performance, suggesting improved generalization.
 
 ## Relevance to survey topic (1-5)
 
@@ -34,7 +33,7 @@ Tasks evaluated.
 
 ## Comments
 
-We can use this to construct arfitificial QD datasets in our experiments. Also reminds me of the MRMR (maximum relevance minimum redundancy) algorithm for feature selection.
+We can use this to construct artificial QD datasets in our experiments. Also reminds me of the MRMR (maximum relevance minimum redundancy) algorithm for feature selection.
 
 Emerging theme that diveristy helps robustness/OOD generalization.
 

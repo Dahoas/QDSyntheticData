@@ -1,4 +1,4 @@
-# PROMPT2MODEL: Generating Deployable Models from Natural Language Instructions
+# [PROMPT2MODEL: Generating Deployable Models from Natural Language Instructions](https://arxiv.org/abs/2308.12261)
 
 ## Summary
 

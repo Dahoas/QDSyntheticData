@@ -1,4 +1,4 @@
-# Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance
+# [Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance](https://arxiv.org/abs/2403.16952)
 
 ## Summary
 

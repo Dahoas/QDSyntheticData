@@ -1,4 +1,4 @@
-# Forcing Diffuse Distributions out of Language Models
+# [Forcing Diffuse Distributions out of Language Models](https://arxiv.org/abs/2404.10859)
 
 ## Summary
 

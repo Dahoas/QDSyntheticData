@@ -1,4 +1,4 @@
-# Best Practices and Lessons Learned on Synthetic Data for Language Models
+# [Best Practices and Lessons Learned on Synthetic Data for Language Models](https://arxiv.org/abs/2404.07503)
 
 
 ## Summary
