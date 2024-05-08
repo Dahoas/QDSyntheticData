@@ -1,0 +1,27 @@
+# Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts
+
+
+## Summary
+
+Introduces a new method, Rainbow Teaming, for generating adversarial LLM prompts by optimizing for both attack quality and diversity. It does so using a QD approach, filling out a grid similar to MAP-Elites using a selection, mutation, and evaluation step. Finetuning a model on the generated data increases adversarial robustness. The method also is applied to cybersecurity and the generation of adversarial QA examples.
+
+## Relevance to Survey Topic (1-5)
+
+Relevance: 5
+
+## Algorithms
+
+- MAP-Elites / QD
+
+## Benchmarks
+
+Harmfulness of responses measured via Llama-Guard and GPT-4 as judges.
+- Success of Rainbow Teaming: discovery of many, diverse adversarial prompts
+- Fine-tuning on this discovered data: decreased susceptibility to adversarial harmfulness-inducing prompts
+
+Also applied to adversarial trivia question generation, and cybersecurity (using CyberSecEval and Human evaluations to measure malicious code)
+
+## Metric Results
+
+- Quality is measured by efficacy of the dataset in lowering Attack Success Rates (ASR) of the models when fine-tuned on the generated synthetic data.
+- Diversity is measured by coverage across the MAP-Elites grid/archive. Additionally, self-BLEU is used to measure and incentivize more diverse mutations by regenerating mutations that are above a certain self-BLEU threshold for parent-child similarity.
