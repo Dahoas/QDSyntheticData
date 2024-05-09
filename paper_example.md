@@ -1,4 +1,4 @@
-# PAPER NAME
+# [PAPER NAME](link to paper)
 
 Template outling what features of a paper to report. Copy this for a new paper and add the result under papers with the filename `PAPER.md`.
 
