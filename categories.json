@@ -2,10 +2,11 @@
   "DVFT": "Fine-tuning LLMs for increased exploration/diversity.",
   "SURVEY": "Survey paper.",
   "DIVERSITY": "Paper with a major emphasis on understanding impact of diversity.",
-  "SEARCH": "Paper with a major emphasis on combing LLM with search.",
+  "SEARCH": "Paper with a major emphasis on combing LLM with search. (Note: this includes refinement)",
   "JUDGE": "Paper using LLM as a judge in some format.",
   "SYNTH": "Paper creates a synthetic dataset.",
   "DATASET": "Paper publishes the dataset online.",
   "REASONING": "Paper has something to do with reasoning.",
-  "EVO": "Paper has something to do with evolutionary algorithm"
+  "EVO": "Paper has something to do with evolutionary algorithm",
+  "TOOLS": "Paper has something to do with tool use"
 }
