@@ -6,5 +6,6 @@
   "JUDGE": "Paper using LLM as a judge in some format.",
   "SYNTH": "Paper creates a synthetic dataset.",
   "DATASET": "Paper publishes the dataset online.",
-  "REASONING": "Paper has something to do with reasoning."
+  "REASONING": "Paper has something to do with reasoning.",
+  "EVO": "Paper has something to do with evolutionary algorithm"
 }
