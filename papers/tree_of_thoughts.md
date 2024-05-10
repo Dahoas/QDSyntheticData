@@ -1,6 +1,4 @@
-# Tree of Thoughts
-
-(Paper)[https://arxiv.org/abs/2305.10601]
+# [Tree of Thoughts](https://arxiv.org/abs/2305.10601)
 
 ## Summary
 

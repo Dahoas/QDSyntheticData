@@ -1,6 +1,4 @@
-# PAPER NAME
-
-Towards Self-Improvement of LLMs via Imagination, Searching, and Criticizing
+# [Towards Self-Improvement of LLMs via Imagination, Searching, and Criticizing](https://arxiv.org/abs/2404.12253)
 
 ## Summary
 

@@ -1,4 +1,4 @@
-# StarCoder2-Instruct: Fully Transparent and Permissive Self-Alignment for Code Generation
+# [StarCoder2-Instruct: Fully Transparent and Permissive Self-Alignment for Code Generation](https://arxiv.org/abs/2402.19173)
 
 Language Models
 ## Summary
