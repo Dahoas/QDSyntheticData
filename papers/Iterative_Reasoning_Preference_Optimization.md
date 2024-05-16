@@ -1,4 +1,4 @@
-# Iterative Reasoning Preference Optimization
+# [Iterative Reasoning Preference Optimization](https://arxiv.org/abs/2404.19733)
 
 ## Summary
 
