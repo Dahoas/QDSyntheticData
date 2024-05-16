@@ -2,6 +2,8 @@
 
 Template outling what features of a paper to report. Copy this for a new paper and add the result under papers with the filename `PAPER.md`.
 
+ID: Number of paper in list of papers (ordered by date of accepted pr)
+
 ## Summary
 
 3-4 line paper summary.
