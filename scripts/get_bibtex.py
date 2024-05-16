@@ -66,6 +66,14 @@ def search_arxiv_by_title(title: str, verbose: bool=False):
         print(xml)
     return xml
 
+def search_arxiv_by_id(id: str, verbose: bool=False):
+    url = f'http://export.arxiv.org/api/query?id_list={id}'
+    data = urllib.request.urlopen(url)
+    xml = data.read().decode('utf-8')
+    if verbose:
+        print(xml)
+    return xml
+
 def rerank(xml: str, title: str):
     entries = re.findall(r"<entry>[\w\W]*</entry>", xml)
     for entry in entries:
@@ -109,6 +117,21 @@ def make_bibtex_from_title(title: str) -> BibtexEntry:
             return None
     else:
         return response
+    
+def make_bibtex_from_id(id: str) -> BibtexEntry:
+    try:
+        response = search_arxiv_by_id(id, verbose=False)
+    except Exception:
+        return None
+    response = rerank(response, title)
+    if response:
+        try:
+            bibtex_entry = xml_to_bibtex(response)
+            return bibtex_entry
+        except Exception:
+            return None
+    else:
+        return response
 
 
 if __name__ == "__main__":
@@ -121,10 +144,15 @@ if __name__ == "__main__":
         with open(paper, "r") as f:
             paper = f.read()
         title = re.findall(r"#([^\n]*\n)", paper)[0].strip()
+        id = None
         if "[" in title or "]" in title:
+            id = re.findall(r"\(([\w\W]*)\)", title)[0].split("/")[-1]
             title = re.findall(r"\[([\w\W]*)\]", title)[0]
-        print(f"Num: {i}, Title: {title}")
-        bibtex_entry: BibtexEntry = make_bibtex_from_title(title)
+        print(f"Num: {i}, Title: {title}, ID: {id}")
+        if id:
+            bibtex_entry = make_bibtex_from_id(id)
+        else:
+            bibtex_entry: BibtexEntry = make_bibtex_from_title(title)
         if bibtex_entry:
             print(bibtex_entry)
             with open("entries.txt", "a") as f:
