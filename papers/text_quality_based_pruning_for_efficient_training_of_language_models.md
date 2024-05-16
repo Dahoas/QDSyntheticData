@@ -6,7 +6,7 @@ Paper proposes model-agnostic numerical quality score for large unlabelled NLP d
 
 ## Relevance to survey topic (1-5)
 
-Relevance: 4
+Relevance: 3
 
 ## Algorithms
 
