@@ -1,0 +1,59 @@
+# [Model Collapse Demystified: The Case of Regression](https://arxiv.org/abs/2402.07712)
+
+ID: Issue #246
+
+## Summary
+
+Model collapse is when a model is trained recursively on data generated from previous generations of itself over time, and its performance degrades until the model eventually becomes completely useless. 
+This paper is a theoretical study of model collapse in the setting of high-dimensional regression. 
+They obtain analytic formulae which quantitatively outline this phenomenon (linear regression with extension to kernel methods). 
+They assume complete data replacement at each epoch. 
+They also propose a simple strategy based on adaptive regularization to mitigate model collapse.
+
+## Relevance to survey topic (1-5)
+
+Relevance: 4
+
+## Algorithms
+
+List of algorithm categories the proposed method falls under. This will take some time to formalize. Example categories include i.i.d sampling, few-shot i.i.d sampling, MAP Elites, 
+
+- test error: MSE loss for regression
+
+<-- ## Benchmarks -->
+
+
+
+## Metric Results
+
+- How is quality measured? NA
+- How is diversity measured? NA
+- Fine-tuning results?
+
+Theoretical analysis on linear regression - Exact characterization of test error under iterative retraining on synthesized data and modified scaling laws of the test error that quantify the
+negative effect of training on synthetically generated data. 
+
+Simulated data in a linear regression setting. 
+
+They include an experiment on kernel ridge regression on MNIST. 
+
+## Paper Tags
+
+Tag paper with relevant categories. See [here](https://github.com/Dahoas/QDSyntheticData/blob/main/papers/categories.json) for list of all category tags.
+
+1. SYNTH 
+
+## Relevant related work
+
+Gerstgrasser, Matthias, et al. "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data." arXiv preprint arXiv:2404.01413 (2024).
+- builds on it removing replacement data assumption. 
+
+<!---
+## Other comments
+
+Anything else you found interesting/noteworthy.
+
+## Questions
+
+Questions you had about the paper
+-->
