@@ -1,0 +1,385 @@
+@misc{reynolds2021Prompt,
+      title={Prompt Programming for Large Language Models: Beyond the Few-Shot
+  Paradigm}, 
+      author={Laria Reynolds and Kyle McDonell},
+      year={2021},
+      eprint={2102.07350},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{lu2023Synthetic,
+      title={Synthetic Experience Replay}, 
+      author={Cong Lu and Philip J. Ball and Yee Whye Teh and Jack Parker-Holder},
+      year={2023},
+      eprint={2303.06614},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{naik2024Diversity,
+      title={Diversity of Thought Improves Reasoning Abilities of LLMs}, 
+      author={Ranjita Naik and Varun Chandrasekaran and Mert Yuksekgonul and Hamid Palangi and Besmira Nushi},
+      year={2024},
+      eprint={2310.07088},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{toshniwal2024OpenMathInstruct,
+      title={OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset}, 
+      author={Shubham Toshniwal and Ivan Moshkov and Sean Narenthiran and Daria Gitman and Fei Jia and Igor Gitman},
+      year={2024},
+      eprint={2402.10176},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{liu2024Best,
+      title={Best Practices and Lessons Learned on Synthetic Data for Language Models}, 
+      author={Ruibo Liu and Jerry Wei and Fangyu Liu and Chenglei Si and Yanzhe Zhang and Jinmeng Rao and Steven Zheng and Daiyi Peng and Diyi Yang and Denny Zhou and Andrew M. Dai},
+      year={2024},
+      eprint={2404.07503},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{gandhi2024Better,
+      title={Better Synthetic Data by Retrieving and Transforming Existing Datasets}, 
+      author={Saumya Gandhi and Ritu Gala and Vijay Viswanathan and Tongshuang Wu and Graham Neubig},
+      year={2024},
+      eprint={2404.14361},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{bukharin2024Data,
+      title={Data Diversity Matters for Robust Instruction Tuning}, 
+      author={Alexander Bukharin and Tuo Zhao},
+      year={2024},
+      eprint={2311.14736},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{ye2024Data,
+      title={Data Mixing Laws: Optimizing Data Mixtures by Predicting Language
+  Modeling Performance}, 
+      author={Jiasheng Ye and Peiju Liu and Tianxiang Sun and Yunhua Zhou and Jun Zhan and Xipeng Qiu},
+      year={2024},
+      eprint={2403.16952},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{michael2023Data,
+      title={Data Selection for Language Models via Importance Resampling}, 
+      author={Sang Michael Xie and Shibani Santurkar and Tengyu Ma and Percy Liang},
+      year={2023},
+      eprint={2302.03169},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{zhang2024Forcing,
+      title={Forcing Diffuse Distributions out of Language Models}, 
+      author={Yiming Zhang and Avi Schwarzschild and Nicholas Carlini and Zico Kolter and Daphne Ippolito},
+      year={2024},
+      eprint={2404.10859},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{yuanzhe2024Iterative,
+      title={Iterative Reasoning Preference Optimization}, 
+      author={Richard Yuanzhe Pang and Weizhe Yuan and Kyunghyun Cho and He He and Sainbayar Sukhbaatar and Jason Weston},
+      year={2024},
+      eprint={2404.19733},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{yu2023Large,
+      title={Large Language Model as Attributed Training Data Generator: A Tale of
+  Diversity and Bias}, 
+      author={Yue Yu and Yuchen Zhuang and Jieyu Zhang and Yu Meng and Alexander Ratner and Ranjay Krishna and Jiaming Shen and Chao Zhang},
+      year={2023},
+      eprint={2306.15895},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{zhou2023LIMA,
+      title={LIMA: Less Is More for Alignment}, 
+      author={Chunting Zhou and Pengfei Liu and Puxin Xu and Srini Iyer and Jiao Sun and Yuning Mao and Xuezhe Ma and Avia Efrat and Ping Yu and Lili Yu and Susan Zhang and Gargi Ghosh and Mike Lewis and Luke Zettlemoyer and Omer Levy},
+      year={2023},
+      eprint={2305.11206},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{fan2023Scaling,
+      title={Scaling Laws of Synthetic Images for Model Training ... for Now}, 
+      author={Lijie Fan and Kaifeng Chen and Dilip Krishnan and Dina Katabi and Phillip Isola and Yonglong Tian},
+      year={2023},
+      eprint={2312.04567},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@misc{gandhi2024Stream,
+      title={Stream of Search (SoS): Learning to Search in Language}, 
+      author={Kanishk Gandhi and Denise Lee and Gabriel Grand and Muxin Liu and Winson Cheng and Archit Sharma and Noah D. Goodman},
+      year={2024},
+      eprint={2404.03683},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{zhu2018Texygen,
+      title={Texygen: A Benchmarking Platform for Text Generation Models}, 
+      author={Yaoming Zhu and Sidi Lu and Lei Zheng and Jiaxian Guo and Weinan Zhang and Jun Wang and Yong Yu},
+      year={2018},
+      eprint={1802.01886},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{reynolds2021Prompt,
+      title={Prompt Programming for Large Language Models: Beyond the Few-Shot
+  Paradigm}, 
+      author={Laria Reynolds and Kyle McDonell},
+      year={2021},
+      eprint={2102.07350},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{lu2023Synthetic,
+      title={Synthetic Experience Replay}, 
+      author={Cong Lu and Philip J. Ball and Yee Whye Teh and Jack Parker-Holder},
+      year={2023},
+      eprint={2303.06614},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{jiang2023Self,
+      title={Self-planning Code Generation with Large Language Models}, 
+      author={Xue Jiang and Yihong Dong and Lecheng Wang and Zheng Fang and Qiwei Shang and Ge Li and Zhi Jin and Wenpin Jiao},
+      year={2023},
+      eprint={2303.06689},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+
+@misc{lanchantin2023Learning,
+      title={Learning to Reason and Memorize with Self-Notes}, 
+      author={Jack Lanchantin and Shubham Toshniwal and Jason Weston and Arthur Szlam and Sainbayar Sukhbaatar},
+      year={2023},
+      eprint={2305.00833},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{li2024Self,
+      title={Self-Alignment with Instruction Backtranslation}, 
+      author={Xian Li and Ping Yu and Chunting Zhou and Timo Schick and Omer Levy and Luke Zettlemoyer and Jason Weston and Mike Lewis},
+      year={2024},
+      eprint={2308.06259},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{naik2024Diversity,
+      title={Diversity of Thought Improves Reasoning Abilities of LLMs}, 
+      author={Ranjita Naik and Varun Chandrasekaran and Mert Yuksekgonul and Hamid Palangi and Besmira Nushi},
+      year={2024},
+      eprint={2310.07088},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{reynolds2021Prompt,
+      title={Prompt Programming for Large Language Models: Beyond the Few-Shot
+  Paradigm}, 
+      author={Laria Reynolds and Kyle McDonell},
+      year={2021},
+      eprint={2102.07350},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{lu2023Synthetic,
+      title={Synthetic Experience Replay}, 
+      author={Cong Lu and Philip J. Ball and Yee Whye Teh and Jack Parker-Holder},
+      year={2023},
+      eprint={2303.06614},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{jiang2023Self,
+      title={Self-planning Code Generation with Large Language Models}, 
+      author={Xue Jiang and Yihong Dong and Lecheng Wang and Zheng Fang and Qiwei Shang and Ge Li and Zhi Jin and Wenpin Jiao},
+      year={2023},
+      eprint={2303.06689},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+
+@misc{lanchantin2023Learning,
+      title={Learning to Reason and Memorize with Self-Notes}, 
+      author={Jack Lanchantin and Shubham Toshniwal and Jason Weston and Arthur Szlam and Sainbayar Sukhbaatar},
+      year={2023},
+      eprint={2305.00833},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{li2024Self,
+      title={Self-Alignment with Instruction Backtranslation}, 
+      author={Xian Li and Ping Yu and Chunting Zhou and Timo Schick and Omer Levy and Luke Zettlemoyer and Jason Weston and Mike Lewis},
+      year={2024},
+      eprint={2308.06259},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{naik2024Diversity,
+      title={Diversity of Thought Improves Reasoning Abilities of LLMs}, 
+      author={Ranjita Naik and Varun Chandrasekaran and Mert Yuksekgonul and Hamid Palangi and Besmira Nushi},
+      year={2024},
+      eprint={2310.07088},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{liu2024Best,
+      title={Best Practices and Lessons Learned on Synthetic Data for Language Models}, 
+      author={Ruibo Liu and Jerry Wei and Fangyu Liu and Chenglei Si and Yanzhe Zhang and Jinmeng Rao and Steven Zheng and Daiyi Peng and Diyi Yang and Denny Zhou and Andrew M. Dai},
+      year={2024},
+      eprint={2404.07503},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{gandhi2024Better,
+      title={Better Synthetic Data by Retrieving and Transforming Existing Datasets}, 
+      author={Saumya Gandhi and Ritu Gala and Vijay Viswanathan and Tongshuang Wu and Graham Neubig},
+      year={2024},
+      eprint={2404.14361},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{bukharin2024Data,
+      title={Data Diversity Matters for Robust Instruction Tuning}, 
+      author={Alexander Bukharin and Tuo Zhao},
+      year={2024},
+      eprint={2311.14736},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{ye2024Data,
+      title={Data Mixing Laws: Optimizing Data Mixtures by Predicting Language
+  Modeling Performance}, 
+      author={Jiasheng Ye and Peiju Liu and Tianxiang Sun and Yunhua Zhou and Jun Zhan and Xipeng Qiu},
+      year={2024},
+      eprint={2403.16952},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{michael2023Data,
+      title={Data Selection for Language Models via Importance Resampling}, 
+      author={Sang Michael Xie and Shibani Santurkar and Tengyu Ma and Percy Liang},
+      year={2023},
+      eprint={2302.03169},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{zhang2024Forcing,
+      title={Forcing Diffuse Distributions out of Language Models}, 
+      author={Yiming Zhang and Avi Schwarzschild and Nicholas Carlini and Zico Kolter and Daphne Ippolito},
+      year={2024},
+      eprint={2404.10859},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{yuanzhe2024Iterative,
+      title={Iterative Reasoning Preference Optimization}, 
+      author={Richard Yuanzhe Pang and Weizhe Yuan and Kyunghyun Cho and He He and Sainbayar Sukhbaatar and Jason Weston},
+      year={2024},
+      eprint={2404.19733},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{yu2023Large,
+      title={Large Language Model as Attributed Training Data Generator: A Tale of
+  Diversity and Bias}, 
+      author={Yue Yu and Yuchen Zhuang and Jieyu Zhang and Yu Meng and Alexander Ratner and Ranjay Krishna and Jiaming Shen and Chao Zhang},
+      year={2023},
+      eprint={2306.15895},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{zhou2023LIMA,
+      title={LIMA: Less Is More for Alignment}, 
+      author={Chunting Zhou and Pengfei Liu and Puxin Xu and Srini Iyer and Jiao Sun and Yuning Mao and Xuezhe Ma and Avia Efrat and Ping Yu and Lili Yu and Susan Zhang and Gargi Ghosh and Mike Lewis and Luke Zettlemoyer and Omer Levy},
+      year={2023},
+      eprint={2305.11206},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{fan2023Scaling,
+      title={Scaling Laws of Synthetic Images for Model Training ... for Now}, 
+      author={Lijie Fan and Kaifeng Chen and Dilip Krishnan and Dina Katabi and Phillip Isola and Yonglong Tian},
+      year={2023},
+      eprint={2312.04567},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@misc{gandhi2024Stream,
+      title={Stream of Search (SoS): Learning to Search in Language}, 
+      author={Kanishk Gandhi and Denise Lee and Gabriel Grand and Muxin Liu and Winson Cheng and Archit Sharma and Noah D. Goodman},
+      year={2024},
+      eprint={2404.03683},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{zhu2018Texygen,
+      title={Texygen: A Benchmarking Platform for Text Generation Models}, 
+      author={Yaoming Zhu and Sidi Lu and Lei Zheng and Jiaxian Guo and Weinan Zhang and Jun Wang and Yong Yu},
+      year={2018},
+      eprint={1802.01886},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{pace2024West,
+      title={West-of-N: Synthetic Preference Generation for Improved Reward Modeling}, 
+      author={Alizée Pace and Jonathan Mallinson and Eric Malmi and Sebastian Krause and Aliaksei Severyn},
+      year={2024},
+      eprint={2401.12086},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{ye2022ZeroGen,
+      title={ZeroGen: Efficient Zero-shot Learning via Dataset Generation}, 
+      author={Jiacheng Ye and Jiahui Gao and Qintong Li and Hang Xu and Jiangtao Feng and Zhiyong Wu and Tao Yu and Lingpeng Kong},
+      year={2022},
+      eprint={2202.07922},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
