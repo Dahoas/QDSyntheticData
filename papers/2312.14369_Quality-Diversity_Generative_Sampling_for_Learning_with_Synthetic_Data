@@ -4,11 +4,13 @@ ID: 257
 
 ## Summary
 
-3-4 line paper summary.
+Generative models can create synthetic training datasets, but may transfer biases to downstream tasks. 
+They propose quality-diversity generative sampling (QDGS), a framework for sampling data uniformly across a user-defined measure space, despite the data coming from a biased generator. 
+It focuses on protecting quality and diversity when generating synthetic training datasets.
 
 ## Relevance to survey topic (1-5)
 
-Relevance: ?
+Relevance: 5
 
 ## Algorithms
 
