@@ -4,9 +4,11 @@ ID: 257
 
 ## Summary
 
-Generative models can create synthetic training datasets, but may transfer biases to downstream tasks. 
-They propose quality-diversity generative sampling (QDGS), a framework for sampling data uniformly across a user-defined measure space, despite the data coming from a biased generator. 
+Problem: Generative models can create synthetic training datasets, but may transfer biases to downstream tasks. 
+
+They propose quality-diversity generative sampling (QDGS), a framework for sampling balanced data from biased generative models, across a user-defined measure space. 
 It focuses on protecting quality and diversity when generating synthetic training datasets.
+QDGS increases spread over desired attributes, described by user-defined language prompts, by exploring high dimensionality latent spaces.
 
 ## Relevance to survey topic (1-5)
 
@@ -14,42 +16,28 @@ Relevance: 5
 
 ## Algorithms
 
-List of algorithm categories the proposed method falls under. This will take some time to formalize. Example categories include i.i.d sampling, few-shot i.i.d sampling, MAP Elites, 
-
-- Algorithm 1
-- Algorithm 2
-- Algorithm 3
+- CMA-MAEGA (Covariance matrix adaptation map-annealing)
 
 ## Benchmarks
 
 Tasks evaluated.
 
-- Benchmark 1
-- Benchmark 2
-- Benchmark 3
+- Synthetic dataset of shapes and colours as proof of concept - repaired biases in shape classifiers.
+- Generating synthetic images of faces with a diverse range of skin colours and ages - more uniform spread of synthetic facial image training data resulting in improved accuracy on dark-skinned faces.
 
 ## Metric Results
 
 - How is quality measured?
-- How is diversity measured?
+- How is diversity measured? Measure functions m_j computes CLIP scores (Equation 2) to determine the measures of diversity in the resulting images. 
 - Fine-tuning results?
 
 ## Paper Tags
 
 Tag paper with relevant categories. See [here](https://github.com/Dahoas/QDSyntheticData/blob/main/papers/categories.json) for list of all category tags.
 
-1. TAG 1
-2. TAG 2
-3. TAG 3
+1. SYNTH
 
 ## Relevant related work
 
-Add them to the spreadsheet. No need to link them in the report.
-
-## Other comments
-
-Anything else you found interesting/noteworthy.
-
-## Questions
-
-Questions you had about the paper
+To solve a relaxed version of quality-diversity uses algorithm from 
+"Covariance Matrix Adaptation MAP-Annealing" Matthew C. Fontaine, Stefanos Nikolaidis
