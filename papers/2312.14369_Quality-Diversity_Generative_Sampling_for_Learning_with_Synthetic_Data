@@ -4,11 +4,13 @@ ID: 257
 
 ## Summary
 
-Problem: Generative models can create synthetic training datasets, but may transfer biases to downstream tasks. 
-
-They propose quality-diversity generative sampling (QDGS), a framework for sampling balanced data from biased generative models, across a user-defined measure space. 
+This paper deals with the problem that generative models can create synthetic training datasets, but may transfer biases to downstream tasks. 
 It focuses on protecting quality and diversity when generating synthetic training datasets.
+They propose quality-diversity generative sampling (QDGS), a framework for using quality-diversity optimisation using prompt guidance, without fine-tuning the generative model. 
+It uses prompt guidance to sample balanced data from biased generative models, across a user-defined measure space. 
 QDGS increases spread over desired attributes, described by user-defined language prompts, by exploring high dimensionality latent spaces.
+
+Basically uses a latent space exploration algorithm to iteratively identify inputs for a generative model that produces an image. 
 
 ## Relevance to survey topic (1-5)
 
@@ -20,20 +22,18 @@ Relevance: 5
 
 ## Benchmarks
 
-Tasks evaluated.
+Tasks evaluated:
 
 - Synthetic dataset of shapes and colours as proof of concept - repaired biases in shape classifiers.
 - Generating synthetic images of faces with a diverse range of skin colours and ages - more uniform spread of synthetic facial image training data resulting in improved accuracy on dark-skinned faces.
 
 ## Metric Results
 
-- How is quality measured?
-- How is diversity measured? Measure functions m_j computes CLIP scores (Equation 2) to determine the measures of diversity in the resulting images. 
-- Fine-tuning results?
+- How is quality measured? No measure, they use a negative prompt in the objective function f to guide towards high quality generations. 
+- How is diversity measured? User-defined measure dimensions are specified as prompts. 
+They estimate measured diversity (i.e., dimensions of diversity that are aligned with semantic concepts) in the resulting images by computing CLIP similarity scores to these language prompts. 
 
 ## Paper Tags
-
-Tag paper with relevant categories. See [here](https://github.com/Dahoas/QDSyntheticData/blob/main/papers/categories.json) for list of all category tags.
 
 1. SYNTH
 
