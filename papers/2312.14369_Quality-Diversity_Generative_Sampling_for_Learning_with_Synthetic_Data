@@ -11,6 +11,7 @@ It uses prompt guidance to sample balanced data from biased generative models, a
 QDGS increases spread over desired attributes, described by user-defined language prompts, by exploring high dimensionality latent spaces.
 
 Basically uses a latent space exploration algorithm to iteratively identify inputs for a generative model that produces an image. 
+They iteratively update latent parameter by adding gradient of objective + gradient of measure function
 
 ## Relevance to survey topic (1-5)
 
@@ -37,7 +38,41 @@ They estimate measured diversity (i.e., dimensions of diversity that are aligned
 
 1. SYNTH
 
+## Other comments
+
+### QD algorithm 
+
+CMA-MAEGA is a QD optimisation algorithm combining the following 2 QD algorithms:
+
+CMA-MA - Covariance matrix adaptation map-annealing [1].
+It's a update to MAP Elites.
+MEGA - MAP-Elites via a Gradient Arborescence [2].
+MEGA is a DQD (both the objective and measure functions are first-order differentiable) algorithm introduced in this paper.
+
+### Searching over latent solutions: 
+
+Searching over latent solutions is referred to as "latent space illumination".
+It's the problem of finding an input θ to a generative model, that produces diverse images across (a user defined) measure space.
+
+Section 3.3 has a formalism of the algorithm.
+Summary:
+Have objective function f for image generation.
+We have k user defined measures (m_j), for each of these measures,
+We wish to find an input θ that maximises f and gives diverse measures.
+We map solutions for initial θ into the measure space.
+θ is updated to θ' with objective-measure gradients (See equation 1 and algorithm 1).
+
+The objective function f in their examples computes CLIP similarity scores of generated images with positive and negative language prompts (Equation 2).
+Each measure function m_j also computes CLIP scores to determine the measures of diversity in the resulting images.
+
+In synthetic face example, the objective function f is a weighted sum of three component
+functions: a text objective, an image margin, and a regularization factor. Measure dimensions, are found with the following prompts:
+x_m1= “A {feminine,masculine} person”,
+x_m2= “A person with {light, dark} skin”,
+x_m3 = “A person with {short, long} hair”, and
+x_m4 = “A person in their {20, 50}s”.
+
 ## Relevant related work
 
-To solve a relaxed version of quality-diversity uses algorithm from 
-"Covariance Matrix Adaptation MAP-Annealing" Matthew C. Fontaine, Stefanos Nikolaidis
+[1] "Covariance matrix adaptation map-annealing" Fontaine and Nikolaidis, '23. https://arxiv.org/abs/2205.10752
+[2] "Differentiable Quality Diversity" Fontaine and Nikolaidis, '21. https://arxiv.org/abs/2106.03894
