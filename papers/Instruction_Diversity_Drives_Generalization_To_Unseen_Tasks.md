@@ -1,4 +1,4 @@
-# [Instruction Diversity Drives Generalization To Unseen Tasks](https://arxiv.org/pdf/2402.10891)
+# [Instruction Diversity Drives Generalization To Unseen Tasks](https://arxiv.org/abs/2402.10891)
 
 
 ## Summary

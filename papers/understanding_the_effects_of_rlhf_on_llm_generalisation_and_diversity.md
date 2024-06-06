@@ -1,4 +1,4 @@
-# [Understanding the Effects of RLHF on LLM Generalisation and Diversity](https://arxiv.org/pdf/2310.06452)
+# [Understanding the Effects of RLHF on LLM Generalisation and Diversity](https://arxiv.org/abs/2310.06452)
 
 ## Summary
 
