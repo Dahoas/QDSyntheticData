@@ -1,5 +1,6 @@
 {
   "DVFT": "Fine-tuning LLMs for increased exploration/diversity.",
+  "SAMPLING": "Proposes method affect quality or diversity of LLM Sampling.",
   "SURVEY": "Survey paper.",
   "DIVERSITY": "Paper with a major emphasis on understanding impact of diversity.",
   "QUALITY": "Paper formalizing a quality metric",
