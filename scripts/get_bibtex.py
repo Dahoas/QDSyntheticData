@@ -11,6 +11,7 @@ logging.basicConfig(level=logging.INFO)
 def main(args):
     papers_path = pathlib.Path(args.papers_path)
     papers = list(papers_path.glob("*.md"))
+    print(f"Found {len(papers)} papers")
     bibliography = [] 
     url_in_title = re.compile(r"^# \[([^\]]+)\]\(([^)]+)\)$")
 
@@ -31,14 +32,17 @@ def main(args):
             logging.error('bad/missing link: %s', papers[i])
         except urllib.error.HTTPError:
             logging.error('bad/missing link: %s', papers[i])
+        except UnicodeDecodeError:
+            logging.error('bad/missing link: %s', papers[i])
         
+    print(f"Found {len(bibliography)} bibs")
     with open(args.output, 'w') as fd:
         for b in bibliography:
             fd.write(b + '\n')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("papers_path")
+    parser.add_argument("--papers_path")
     parser.add_argument("--output", default='bibliography.bib')
     args = parser.parse_args()
     main(args)
