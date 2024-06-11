@@ -1,0 +1,44 @@
+# [How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition](https://arxiv.org/pdf/2310.05492)
+
+ID: Issue #285
+
+## Summary
+
+This paper explores the interplay between model performance and data amaount, composition ratio, model size and SFT strategies. Key findings are: 1.larger models generally perform better with the same amount of data, 2. mathematical reasoning and code generation improve with more data, while general abilities plateau after a certain point, 3. data composition can enhance abilities under limited data conditions but may cause performance conflicts with abundant data, 4. sequentially learning multiple skills risks catastrophic forgetting 5. the proposed DMT strategy mitigates these issues
+
+
+## Relevance to survey topic (1-5)
+
+Relevance: 4
+
+Very relevant as it explores how the SFT data mixture and data amount affect model performance
+
+
+## Training Strategies
+
+- Multi-task learning
+- Sequential Training
+- Mixed Sequential Training
+- Dual-stage Mixed Fine-tuning (DMT)
+
+## Benchmarks 
+
+- GSM8K RFT
+- Code Alpaca
+- ShareGPT
+- HumanEval
+- MT-Bench 
+
+
+## Relevant related work
+
+[1] Zheng Yuan, Hongyi Yuan, Chengpeng Li, Guanting Dong, Chuanqi Tan, and Chang Zhou. 2023b. Scaling relationship on learning mathematical reasoning with large language models. https://arxiv.org/pdf/2308.01825
+
+
+## Other comments
+
+Only three (plus another three in tha Appendix) data domains are investigated 
+
+
+
+
