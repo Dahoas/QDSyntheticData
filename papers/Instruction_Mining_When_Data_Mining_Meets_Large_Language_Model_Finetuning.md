@@ -4,16 +4,18 @@ ID: 34
 
 ## Summary
 
-This paper seeks to find an optimal subset to instruction-tune an LLM with. They do this by considering a bunch of quality and diversity metrics:
+This paper seeks to find an optimal subset to instruction-tune an LLM with. They do this by considering a bunch of quality metrics:
 - Input length
 - Output length
 - Reward score from a 1.4B Pythia model trained on open assistant data
 - Perplexity
-- MTLD: Measure of Textual Lexical Diversity [1]
-- KNN-i: Distance to i-th nearest neighbours in SentenceBERT embedding space
 - Unieval-naturalness: Whether a response is like something a person would naturally say [2]
 - Unieval-coherence: Whether a response is a valid continuation of the previous conversation [2]
 - Unieval-understandability: Whether a response is understandable [2]
+and diversity metrics:
+- MTLD: Measure of Textual Lexical Diversity [1]
+- KNN-i: Distance to i-th nearest neighbours in SentenceBERT embedding space
+
 and then gather a dataset by training a bunch of Llama-2-7Bs on different data mixes, and recording the QD metrics and eval losses. With this they find a formula to predict eval loss from these metrics and use BlendSearch [3] to find optimal subsets.
 
 Based on their analysis the only relevant metrics are the quality metrics reward score and the Unieval scores, so diversity as measured by MTLD or KNN-i doesn't play a role.
@@ -36,7 +38,9 @@ Relevance: 5
 
 ## Metric Results
 
-There is a significant improvement over random subset selection at a relatively small cost. They show
+There is a significant improvement over random subset selection at a relatively small cost. Testing is done relatively in-distribution, which might explain why the diversity metrics weren't found to be relevant.
+
+Furthermore, they show there's a type of double descent phenomenon: as you increase number of training samples it reaches an optimum at around 2000 samples. Adding more samples hurts performance up to a certain amount, after which performance improves again.
 
 ## Other comments
 
