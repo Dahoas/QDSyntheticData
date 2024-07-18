@@ -12,4 +12,6 @@
   "EVO": "Paper has something to do with evolutionary algorithm",
   "TOOLS": "Paper has something to do with tool use",
   "COMPLEXITY": "Paper has something to do with complexity"
+  "MOTIV": "Paper is suitable as a motivating example for the introduction or application section",
+  "ADJ": "Paper is not directly relevant, but an adjacent question and maybe relevant in some way"
 }
