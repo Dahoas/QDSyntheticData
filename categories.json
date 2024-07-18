@@ -10,5 +10,6 @@
   "DATASET": "Paper publishes the dataset online.",
   "REASONING": "Paper has something to do with reasoning.",
   "EVO": "Paper has something to do with evolutionary algorithm",
-  "TOOLS": "Paper has something to do with tool use"
+  "TOOLS": "Paper has something to do with tool use",
+  "COMPLEXITY": "Paper has something to do with complexity"
 }
