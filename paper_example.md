@@ -36,7 +36,7 @@ Tasks evaluated.
 
 ## Paper Tags
 
-Tag paper with relevant categories. See [here](https://github.com/Dahoas/QDSyntheticData/blob/main/papers/categories.json) for list of all category tags.
+Tag paper with relevant categories. See [here](./categories.json) for list of all category tags.
 
 1. TAG 1
 2. TAG 2
