@@ -23,9 +23,10 @@ NA
 
 ## Metric Results
 
-- NA
-- EAD score: N/(V[1-((V-1)/V)^C]), where N = #unique tokens, C = #all tokens, V = #tokens in the whole vocabulary
-- NA
+- How is quality measured? NA
+- How is diversity measured? 
+EAD score: N/(V[1-((V-1)/V)^C]), where N = #unique tokens, C = #all tokens, V = #tokens in the whole vocabulary
+- Fine-tuning results? NA
 
 ## Paper Tags
 
@@ -34,6 +35,6 @@ NA
 
 ## Relevant related work
 
-Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, and Bill Dolan. 2016. A diversity-promoting objec- tive function for neural conversation models. 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL HLT 2016 - Pro- ceedings of the Conference, pages 110–119. https://aclanthology.org/N16-1014.pdf
+Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, and Bill Dolan. 2016. A diversity-promoting objec- tive function for neural conversation models. 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL HLT 2016 - Proceedings of the Conference, pages 110–119. https://aclanthology.org/N16-1014.pdf
 
 
