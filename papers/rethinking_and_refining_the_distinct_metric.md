@@ -1,4 +1,4 @@
-# [Rethinking and Refining the Distinct Metric](https://arxiv.org/pdf/2202.13587)
+# [Rethinking and Refining the Distinct Metric](https://arxiv.org/abs/2202.13587)
 
 ID: #327
 

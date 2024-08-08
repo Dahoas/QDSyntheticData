@@ -1,4 +1,4 @@
-# [Tree-Instruct: A Preliminary Study of the Intrinsic Relationship between Complexity and Alignment](https://arxiv.org/pdf/2308.05696)
+# [Tree-Instruct: A Preliminary Study of the Intrinsic Relationship between Complexity and Alignment](https://arxiv.org/abs/2308.05696)
 
 ID: #305
 

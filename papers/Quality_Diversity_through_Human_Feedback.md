@@ -1,4 +1,4 @@
-# [Quality Diversity through Human Feedback: Towards Open-Ended Diversity-Driven Optimization](https://arxiv.org/pdf/2310.12103)
+# [Quality Diversity through Human Feedback: Towards Open-Ended Diversity-Driven Optimization](https://arxiv.org/abs/2310.12103)
 
 
 ID: Issue #105

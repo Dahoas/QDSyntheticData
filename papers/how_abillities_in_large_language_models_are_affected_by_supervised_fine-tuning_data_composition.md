@@ -1,4 +1,4 @@
-# [How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition](https://arxiv.org/pdf/2310.05492)
+# [How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition](https://arxiv.org/abs/2310.05492)
 
 ID: Issue #285
 
