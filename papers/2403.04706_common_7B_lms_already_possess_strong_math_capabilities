@@ -1,0 +1,50 @@
+# [Common 7B Language Models Already Possess Strong Math Capabilities](https://arxiv.org/pdf/2403.04706)
+
+ID: 301
+
+## Summary
+1. The authors experimentally prove that small LMs (specifically llama-2 7B) do already possess good mathematical capabilities and it's a matter of eliciting those capabilities -- the SFT'd llama-2 7B scores 97.7% and 72.0% on the GSM8K and
+MATH benchmarks, respectively, when selecting the best response from 256 random generations as opposed to 49.5% and 7.9%  for the first answer.
+These numbers even beat GPT-4 BTW.
+2. The authors note that the accuracy improves linearly with exponentially increased SFT data and there's no plateau observed even after utilizing the whole of GSM8K and MATH for SFT -- synthetic data kicks in here!
+GPT-4 turbo is used to generate synthetic data to scale dataset sizes which is experimentally shown to also scale model perf.
+Conclusion: SFT using the synthetic data is highly effective in stabilizing correct response generation (getting the correct response on the first try).
+
+
+## Algorithms
+
+- SFT
+
+## Benchmarks
+
+- GSM8K
+- MATH
+- SVAMP
+- ASDiv
+- Hungarian National High School Exam
+
+## Metric Results
+
+- How is quality measured?
+  - A comparison between models SFT'd with real data and those SFT'd with syn data shows that the latter is as effective in improving accuracy as the former, and this is true as the dataset size scales up (table 1).
+  - Their syn data gen approach is also compared with other approaches, and it's proved that as the dataset size increases, the paper's method improves accuracy by the most (fig 6).
+  - The approach itself employs a verification step which is again done by an LLM.
+- How is diversity measured?
+  - IDT they measured the div of the syn data anywhere.
+- Fine-tuning results?
+  - While pass@256 remains fairly constant, passratio@256 increases significantly as the SFT dataset size increases.
+  - All numbers present in table 2. 
+
+- How does dataset quality, diversity, and scale affect model generalization?
+  - As the dataset scale increases, the passratio@256 and pass@1 significantly improve while the pass@256 remains fairly constant implying that SFT with increased amount of data is only a way of eliciting what the model already knows and hence stabilizing the response.
+- How do quality, diversity, and data scale relate?
+  - N/A
+
+## Paper Tags
+- SAMPLING
+- REASONING (In the sense that common reasoning benchmarks are evaluated)
+- SYNTH
+
+
+## Other comments
+No other comments.
