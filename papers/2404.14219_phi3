@@ -1,0 +1,50 @@
+# [Phi-3 Technical Report:A Highly Capable Language Model Locally on Your Phone](https://arxiv.org/abs/2404.14219v3)
+
+[HuggingFace](https://huggingface.co/microsoft)
+
+[Blog post](https://news.microsoft.com/source/features/ai/the-phi-3-small-language-models-with-big-potential/) 
+
+ID: 355
+
+## Summary
+
+Report on Phi-3-mini, (3.8 billion parameters so small enough to fit on a phone, trained on 3.3 trillion tokens), Phi-3-small (7 billion parameters trained for 4.8T tokens - same data but more epochs), 
+Phi-3-medium (14 billion parameters trained for 4.8T tokens - again same data but more epochs), and phi-3-vision (a 4.2 billion parameter model based on phi-3-mini). 
+They claim Phi-3-mini reaches the level of highly capable models such as GPT-3.5 or Mixtral with only 3.8B total parameters. 
+(while Mixtral has 45B total parameters for example).
+The innovation lies entirely in the dataset for training, a scaled-up version of the one used for phi-2, composed of heavily filtered
+publicly available web data and synthetic data. The model is also further aligned for robustness, safety, and chat format.
+
+## Relevance to survey topic (1-5)
+
+Relevance: 2 (not much details on synthetic data generation, or Q&D)
+
+## Algorithms
+
+## Benchmarks
+
+See section 3 (page 4), 11 for VLM. 
+
+Phi-3-mini rivals that of models such as Mixtral 8x7B and GPT-3.5 (e.g., phi-3-mini achieves 69% on MMLU and 8.38
+on MT-bench). 
+
+## Metric Results
+
+- How is quality measured? "High-quality data" not detailed. 
+- How is diversity measured? "Diverse data" not detailed. 
+- Fine-tuning results? Model is finetuned with SFT and DPO. 
+
+## Paper Tags
+
+1. SYNTH (details not released)
+
+## Relevant related work
+
+Other phi series models. 
+
+## Other comments
+
+Pre-training is performed in two disjoint and sequential phases;
+phase-1 comprises mostly of web sources aimed at teaching the model general knowledge and language
+understanding. Phase-2 merges even more heavily filtered webdata (a subset used in Phase-1) with some
+synthetic data that teach the model logical reasoning and various niche skills.
